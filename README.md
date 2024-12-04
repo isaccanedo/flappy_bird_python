@@ -20,27 +20,26 @@ Este repositório contém uma implementação do clássico jogo Flappy Bird util
 
 ## Como executar
 Clone este repositório:
-
-bash
 ```
 git clone https://github.com/isaccanedo/flappy_bird_python.git
 cd flappy-bird-python
 ```
 
 ## 📂 Estrutura do código
-Classes principais:
-- Bird: Representa o pássaro, incluindo sua movimentação e animação.
-- PipePair: Gerencia os canos e a lógica de colisão.
-Funções auxiliares:
-- load_images: Carrega as imagens usadas no jogo.
-- frames_to_msec e msec_to_frames: Convertem entre frames e milissegundos.
+**Classes principais**:
+
+- **Bird**: Representa o pássaro, incluindo sua movimentação e animação.
+- **PipePair**: Gerencia os canos e a lógica de colisão.
+
+**Funções auxiliares**:
+- **load_images**: Carrega as imagens usadas no jogo.
+- **frames_to_msec e msec_to_frames**: Convertem entre frames e milissegundos.
+- 
 ## 📸 Imagens do jogo
-Adicione capturas de tela do jogo na pasta /screenshots e inclua-as aqui no README, como:
+![Screenshot do jogo](images/flappy.png)
 
-![Screenshot do jogo](screenshots/gameplay.png)
-
-🛠️ Recursos
-Movimentação do pássaro: Baseada na física de queda e impulso para cima.
-Detecção de colisão: Utiliza máscaras para precisão.
-Geração dinâmica de canos: Baseada em posições randômicas.
-Pontuação: Incrementada ao passar pelos canos.
+## 🛠️ Recursos
+**Movimentação do pássaro**: Baseada na física de queda e impulso para cima.
+**Detecção de colisão**: Utiliza máscaras para precisão.
+**Geração dinâmica de canos**: Baseada em posições randômicas.
+**Pontuação**: Incrementada ao passar pelos canos.
