@@ -40,6 +40,9 @@ cd flappy-bird-python
 
 ## 🛠️ Recursos
 **Movimentação do pássaro**: Baseada na física de queda e impulso para cima.
+
 **Detecção de colisão**: Utiliza máscaras para precisão.
+
 **Geração dinâmica de canos**: Baseada em posições randômicas.
+
 **Pontuação**: Incrementada ao passar pelos canos.
