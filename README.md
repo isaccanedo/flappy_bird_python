@@ -39,10 +39,10 @@ cd flappy-bird-python
 ![Screenshot do jogo](images/flappy.png)
 
 ## 🛠️ Recursos
-**Movimentação do pássaro**: Baseada na física de queda e impulso para cima.
+- **Movimentação do pássaro**: Baseada na física de queda e impulso para cima;
 
-**Detecção de colisão**: Utiliza máscaras para precisão.
+- **Detecção de colisão**: Utiliza máscaras para precisão;
 
-**Geração dinâmica de canos**: Baseada em posições randômicas.
+- **Geração dinâmica de canos**: Baseada em posições randômicas;
 
-**Pontuação**: Incrementada ao passar pelos canos.
+- **Pontuação**: Incrementada ao passar pelos canos.
